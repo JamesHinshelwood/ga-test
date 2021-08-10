@@ -1,0 +1,13 @@
+name: "Hello World"
+description: "do stuff"
+inputs:
+  who:
+    description: "Who?"
+    required: true
+    default: "World"
+outputs:
+  time:
+    description: "When greeted"
+runs:
+  using: "node12"
+  main: "index.js"
